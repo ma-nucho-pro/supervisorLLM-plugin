@@ -1,0 +1,28 @@
+{
+  "description": "Supervisor lifecycle hooks for Codex CLI.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${PLUGIN_ROOT}/scripts/preflight.mjs\"",
+            "timeout": 10,
+            "additionalContextLimit": 2200
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${PLUGIN_ROOT}/scripts/stop-gate.mjs\"",
+            "timeout": 20
+          }
+        ]
+      }
+    ]
+  }
+}

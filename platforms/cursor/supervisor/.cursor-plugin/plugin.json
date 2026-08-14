@@ -1,0 +1,18 @@
+{
+  "name": "supervisor",
+  "displayName": "Supervisor",
+  "description": "Multi-agent quality gate for Cursor with universal Supervisor Skill, 27 custom subagents, always-on supervision rule, and bounded stop-review loop.",
+  "version": "2.0.0",
+  "keywords": [
+    "supervisor",
+    "multi-agent",
+    "quality-gate",
+    "verification",
+    "anti-hallucination",
+    "code-review",
+    "frontend",
+    "web-research"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}

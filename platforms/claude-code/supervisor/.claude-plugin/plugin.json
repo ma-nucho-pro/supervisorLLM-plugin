@@ -1,0 +1,15 @@
+{
+  "name": "supervisor",
+  "description": "Universal Supervisor adapter for Claude Code: web-grounded research, expert code/frontend work, 27 independent specialists, adversarial review, correction loops, and an independent Stop release judge.",
+  "version": "2.0.0",
+  "keywords": [
+    "supervisor",
+    "multi-agent",
+    "quality-gate",
+    "verification",
+    "anti-hallucination",
+    "code-review",
+    "frontend",
+    "web-research"
+  ]
+}

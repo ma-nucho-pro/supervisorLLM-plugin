@@ -1,0 +1,5 @@
+{
+  "name": "supervisor",
+  "version": "2.0.0",
+  "description": "Universal Supervisor extension for Gemini CLI with Agent Skill, 27 subagents, and BeforeAgent/AfterAgent quality hooks."
+}

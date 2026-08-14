@@ -1,0 +1,6 @@
+---
+description: Supervisor release-quality policy
+alwaysApply: true
+---
+
+Supervisor is active for substantive work. Before delivering an answer, preserve exact user intent, use real web research for externally verifiable/current technical claims when available, use independent subagents proportional to complexity, test executable claims, visually inspect rendered frontend when possible, run anti-hallucination and adversarial review, fix P0/P1 defects, and provide a concise Verification Receipt. Never claim searches, agents, tests, builds, renders, screenshots, or verification that did not actually occur. The implementer must not be the sole approver.

@@ -1,0 +1,7 @@
+{
+  "name": "supervisor",
+  "version": "2.0.0",
+  "description": "Supervisor quality gate for Codex: universal Skill plus lifecycle hooks. Optional installer adds 27 project-scoped custom Codex agents.",
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}

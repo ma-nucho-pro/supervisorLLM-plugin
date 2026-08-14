@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "BeforeAgent": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${extensionPath}/scripts/before-agent.mjs\"",
+            "timeout": 10000
+          }
+        ]
+      }
+    ],
+    "AfterAgent": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${extensionPath}/scripts/after-agent.mjs\"",
+            "timeout": 20000
+          }
+        ]
+      }
+    ]
+  }
+}

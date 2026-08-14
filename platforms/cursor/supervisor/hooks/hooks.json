@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "stop": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/scripts/stop-gate.mjs\"",
+        "timeout": 15
+      }
+    ]
+  }
+}
